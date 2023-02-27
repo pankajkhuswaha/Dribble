@@ -1,0 +1,606 @@
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+  li {
+      text-decoration: none;
+  }
+
+  /*-------Footer CSS Prpperty defination--------*/
+  .main-line {
+      max-width: 600px;
+      min-width: 204px;
+      width: 275px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footerlinks {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .links-container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .links-column {
+      display: flex;
+      flex-direction: column;
+      min-width: 144px;
+      max-width: 500px;
+      width: 210px;
+  }
+
+  .link {
+      display: block;
+      margin-top: 16px;
+      color: #3d3d4e;
+      font-family: 'Lato', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-decoration: none;
+      margin-top: 16px;
+  }
+
+  .link-heading {
+      font-family: 'Lato', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 20px;
+      margin-top: 32px;
+      color: #0d0c22;
+  }
+
+  .link-heading {
+      margin-top: 15px;
+  }
+
+  .footer-base {
+      display: flex;
+      justify-content: space-between;
+
+      align-items: center;
+      height: 100px;
+      padding: 0px 10px;
+  }
+
+  footer {
+      background: rgb(95 95 98 / 5%);
+      padding: 1vw 4vw;
+  }
+
+  hr {
+      color: grey;
+      margin-top: 25px;
+  }
+
+  .socialicon {
+      margin: 25px 0px;
+  }
+
+  /*------- End of Footer CSS Prpperty defination--------*/
+
+
+
+  /*-------Starting of main-menu CSS Prpperty defination--------*/
+  nav {
+      display: flex;
+      justify-content: space-between;
+      height: 80px;
+      align-items: center;
+  }
+
+  a.menu-opt-link,
+  .dropdown {
+      text-decoration: none;
+      font-size: 15px;
+      font-family: 'Lato', sans-serif;
+      color: #0000009c;
+      margin: 0px 10px;
+  }
+
+  .menu-opt {
+      display: flex;
+  }
+
+  ul#menu {
+      display: flex;
+      align-items: center;
+      list-style: none;
+  }
+
+  .btn-1 {
+      background: #e5548c;
+      height: 40px;
+      padding: 10px 16px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      cursor: pointer;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      margin-right: 30px;
+  }
+
+  h1.sign-in {
+      color: #0000006b;
+      font-size: 17px;
+      font-family: 'Lato', sans-serif;
+      padding: 12px;
+      cursor: pointer;
+  }
+
+  .navcontainer {
+      display: flex;
+      align-items: center;
+  }
+
+  #hamburger,
+  #hide {
+      display: none;
+      margin: 15px;
+  }
+
+  .logoimg {
+      display: none;
+  }
+
+  a.menu-opt-links.dropdown {
+      font-size: 18px;
+      font-weight: 800;
+      margin: 25px;
+  }
+
+  #menu1 {
+    display: none;
+    position: absolute;
+    background: white;
+    width: 100vw;
+    z-index: 999;
+}
+
+  input.searchbar {
+      padding: 9px;
+      margin: 10px 25px;
+      font-size: 19px;
+      border-radius: 7px;
+      border: none;
+      background: #80808036;
+  }
+
+  /*-------Starting responsive of main-menu CSS Prpperty defination--------*/
+  @media screen and (max-width:980px) and (min-width:100px) {
+      #menu1 {
+          display: none;
+          flex-direction: column;
+      }
+
+      #menuoption,
+      .btn-1,
+      #menu-opt-icon {
+          display: none;
+      }
+
+      #hamburger,
+      .logoimg {
+          display: block;
+      }
+
+  }
+
+  /*-------Ending of responsive of main-menu CSS Prpperty defination--------*/
+
+
+  /*-------Starting hoverable of main-menu CSS Prpperty defination--------*/
+  .link-hover-card {
+      position: absolute;
+      display: flex;
+      background: white;
+      box-shadow: 0px 10px 70px rgb(0 0 0 / 15%);
+      border-radius: 10px;
+      display: none;
+      z-index: 999;
+      
+  }
+
+  .hover-card-1 {
+    height: 400px;
+      width: 600px;
+  }
+
+  .hover-card-2 {
+    height: 327px;
+    width: 400px;
+    padding-left: 18px;
+}
+  .hover-card-3 {
+    width:400px;
+    height: 274;
+    padding-left: 18px;
+}
+.hover-card-4 {
+    width:400px;
+    padding-left: 18px;
+    height: 242px;
+}
+.hover-card-5 {width:400px;
+    height: 610px;
+    padding-left: 18px;
+}
+.hover-card-6 {width:400px;
+    height: 242px;
+    padding-left: 18px;
+}
+
+  .icon {
+      width: 30px;
+      background: red;
+      height: 30px;
+      border-radius: 4px;
+  }
+
+  .submenu .link {
+      margin-top: 4px;
+  }
+
+  li.left-sec-li {
+      display: flex;
+      align-items: center;
+      margin: 12px;
+      align-content: center;
+      justify-content: space-around;
+  }
+
+  .left-section {
+      width: 415px;
+      padding: 0px 23px;
+  }
+
+  .right-section {
+      background: #50524d14;
+      width: 175px;
+      border-radius: 10px;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+  }
+  .submenu {
+    width: 270px;
+    margin-left: 20px;
+}
+
+.menu-ul{
+    display: flex;
+}
+.menu-opt ul li:hover {
+    color: black;
+    font-weight: 600;
+}
+.menu-opt ul li:hover .link-hover-card{
+    display: flex;
+    
+}
+.fa-arrow-right-long{
+    visibility:hidden;
+}
+.left-sec-li:hover .fa-arrow-right-long{
+    visibility: visible;
+}
+a.menu-opt-link.link-1.submenu-1 {
+    margin-left: 30px;
+}
+/*-------Ending of hoverable main-menu CSS Prpperty defination--------*/
+
+
+/*-------starting of hero-section CSS Prpperty defination--------*/
+.hero-section {
+    box-sizing: border-box;
+    background-color: rebeccapurple;
+    height: 65vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sliders {
+    width: 100%;
+    height: 75vh;
+    background-color: grey;
+    /* margin: 0px 12px; */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -80px;
+    /* display: none; */
+}
+
+.buttons {
+    position: relative;
+    z-index: 9;
+    top: 3vw;
+    cursor: none;
+
+    margin: 0px 10vw;
+    overflow: auto;
+    background: none;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.buttons::-webkit-scrollbar {
+    display: none;
+}
+
+.slide-not-act {
+    display: none;
+}
+
+.tp-black {
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    background-color: rgba(2, 2, 2, 0.359);
+}
+
+
+
+video {
+    object-fit: contain;
+    width: 100vw;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15vh;
+    margin-top: 20px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 0px 13vw;
+    flex-direction: column;
+    z-index: 99;
+}
+
+.content h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px 0px;
+    padding: 0px 18vw;
+}
+
+.content p {
+    margin: 15px;
+    font-size: 1em;
+    padding: 0px 14vw;
+}
+
+.search-bar {
+    display: flex;
+    margin-top: 10px;
+    width: 36vw;
+    /* border: 1px solid; */
+    height: 54px;
+    padding-left: 30px;
+    background: white;
+    border-radius: 32px;
+    align-items: center;
+    overflow: hidden;
+    /* box-shadow: 0px 4px 9px beige; */
+}
+
+.trending-keywords {
+    margin-top: 1em;
+}
+
+input.search-field {
+    width: 35vw;
+    border: none;
+    font-size: 1.4em;
+    height: 47px;
+    padding-left: 10px;
+}
+
+ul.t-key-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li.t-keyword {
+    margin: 2px 5px;
+    border: 2px solid grey;
+    padding: 6px 13px;
+    border-radius: 18px;
+}
+.container-btn {
+    margin: 0px 10px;
+    max-width: 148px;
+    height: 52px;
+    color: white;
+    background-color: #000000a8;
+    border-radius: 32px;
+    font-size: 16px;
+    padding: 0px 17px;
+    cursor: pointer;
+}
+.container-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.t-keyword:hover
+{
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+}
+.active-btn,slider-1 {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.slide-not-act{
+    display: none;
+}
+
+@media screen and (max-width:980px) {
+
+    .content p,
+    .content h2 {
+        padding: 0;
+    }
+    .slider{
+        padding: 0;
+        top: 100px;
+    }
+ .search-bar {
+        width: 45vw;
+    }
+
+}
+
+@media screen and (min-width:980px) {
+    .trending-keywords {
+    margin-top: 2vh;
+    }
+    .slider{
+        padding: 0;
+    }
+    }
+
+@media screen and (min-width:150px) and (max-width:600px){
+.content p{
+font-size: 1em;
+margin: 0;
+}
+.content h2{
+font-size: 1.3em;
+}
+.slider{
+    top: 125px;
+}
+.sliders{
+    top: -130px;
+}
+.hero-section{
+    height: 42vh;
+}
+.search-bar{
+    height: 35px;
+}
+input.search-field{
+    font-size: 1em;
+}
+.trending-keywords {
+    margin-top: 1vh;
+}
+li.t-keyword {
+    margin: 3px 3px;
+    border: 2px solid grey;
+    padding: 4px 13px;
+    border-radius: 18px;
+}
+.buttons{
+    margin: 0;
+}
+.container-btn{
+    height: 30px;
+}
+}
+@media screen and (min-height:669px) and (max-width:600px){
+    .slider{
+        top:177px;
+    }
+    .sliders{
+        top:-175px;
+    }
+    .hero-section{
+        height: 43vh;
+    }
+}
+@media screen and (min-width:601px) and (max-width:980px){
+    .content h2 {
+        padding:0px 55px;
+        font-size: 2em;
+        margin-top: 0px;
+    }
+    .content p{
+        font-size: 1.3em;
+        margin: 0;
+    }
+    .sliders{
+        top: -93px;
+    }
+    .hero-section{
+        height: 63vh;
+    }
+    .buttons{
+        margin: 0;
+    }
+}
+@media screen and (min-width:801px) and (max-width:980px){
+    .content p{
+        padding: 0px 30px;
+    }
+    .content h2{
+        padding: 10px 100px;
+    }
+    .hero-section{
+        height: 59vh;
+    }
+}
+@media screen and (min-width:1220px) {
+    .content p{
+        padding: 0px 27vw;
+    }
+    .content h2{
+        padding: 0px 30vw;
+    }
+    
+}
+@media screen and (min-width:100px ) and (max-width:420px) and (min-height:550px){
+    .hero-section
+    {
+        height: 70vh;
+    }
+    video{
+        width: 250vw;
+    }
+    .trending-keywords{
+        margin: 4vh;
+    }
+    .content h2{
+        padding-top: 20px;
+    }
+    .sliders,.tp-black{
+        height: 95vh;
+    }
+    .buttons{
+        margin-top: 20px;
+    }
+}
+.footer-base div{
+    display: flex;
+    justify-items: center;
+}
+.main-footer-content{
+    display: flex;
+    justify-content: space-between;
+}

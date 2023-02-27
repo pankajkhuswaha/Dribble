@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dribbble.com</title>
+    <link rel="shortcut icon"
+        href="https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cd15797067cf80ca53.svg"
+        type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/971a1df02f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+        <nav>
+            <ul class="menu-items" id="menu">
+                <li class="menu-opt-click">
+                    <i id="hamburger" onclick="show()" class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark" id="hide" onclick="hide()"></i>
+                </li>
+                <li class="menu-opt-link" id="menu-opt-icon">
+                    <img src="../Dribble/images/Dlogo.png" style="width: 100px; height:35px; margin-left:30px;" alt="">
+                </li>
+
+                <li class="menu-opt" id="menuoption">
+                    <ul class="menu-ul">
+                        <li class="menu-option"><a href="" class="menu-opt-link link-1 submenu-1"> Inspiration</a>
+                            <div class=" link-hover-card hover-card-1">
+
+                                <div class="left-section">
+                                    <ul class="left-sec-ul">
+                                        <li class="left-sec-li">
+                                            <div class="icon">
+                                                <img src="../images/submenulogo/s1.png" alt="" class="sub-icon">
+                                            </div>
+                                            <div class="submenu">
+                                                <div class="link-heading">EXplore Design Work</div>
+                                                <a class="link" href="#">Trending Design to inpire you</a>
+                                            </div>
+                                            <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                    style="float:left; color: blueviolet;"></i></div>
+                                        </li>
+                                        <li class="left-sec-li">
+                                            <div class="icon">
+                                                <img src="../images/submenulogo/s2.png" alt="" class="sub-icon">
+                                            </div>
+                                            <div class="submenu">
+                                                <div class="link-heading">News & Noteworthy</div>
+                                                <a class="link" href="#">Up-and-comingdesigners</a>
+                                            </div>
+                                            <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                    style="float:left;color: palevioletred;"></i></div>
+                                        </li>
+                                        <li class="left-sec-li">
+                                            <div class="icon">
+                                                <img src="../images/submenulogo/s3.PNG" alt="" class="sub-icon">
+                                            </div>
+                                            <div class="submenu">
+                                                <div class="link-heading">Playoffs</div>
+                                                <a class="link" href="#">Work designers are riffling</a>
+                                            </div>
+                                            <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                    style="float:left;color: rgb(33, 180, 106);"></i></div>
+                                        </li>
+                                        <li class="left-sec-li">
+                                            <div class="icon">
+                                                <img src="../images/submenulogo/s4.png" alt="" class="sub-icon">
+                                            </div>
+                                            <div class="submenu">
+                                                <div class="link-heading">Blogs</div>
+                                                <a class="link" href="#">interview,tutorial,and More</a>
+                                            </div>
+                                            <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                    style="float:left;color: yellow;"></i></div>
+                                        </li>
+                                        <hr>
+                                        <li class="left-sec-li">
+                                            <div class="submenu">
+                                                <div class="link-heading">Participte in this week's Playoff</div>
+                                                <a class="link" href="#">Sponsored by Pitch</a>
+                                            </div>
+                                            <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                    style="float:left;"></i></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="right-section">
+                                    <div class="link-heading">Browse Categories</div>
+                                    <a class="link" href="#">Animation</a>
+                                    <a class="link" href="#"> Branding</a>
+                                    <a class="link" href="#">Illustration</a>
+                                    <a class="link" href="#">Mobile</a>
+                                    <a class="link" href="#">Print</a>
+                                    <a class="link" href="#">Product Design</a>
+                                    <a class="link" href="#">Typogrphy </a>
+                                    <a class="link" href="#">Web Design </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-option"><a href="" class="menu-opt-link submenu-2"> Find Work</a>
+                            <div class="link-hover-card hover-card-2">
+                                <ul class="left-sec-ul">
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s5.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Job Board</div>
+                                            <a class="link" href="#">Find Your dream design job</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left;color: blueviolet;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s6.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Freelance Projects</div>
+                                            <a class="link" href="#">An exclusive list for contract work</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left;color: palevioletred;"></i></div>
+                                    </li>
+                                    <hr>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s7.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Want Freelance design projects?</div>
+                                            <a class="link" href="#">Get new leads in your ibox every day</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: rgb(33, 180, 106);"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s8.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Personalize Your profile with video</div>
+                                            <a class="link" href="#">Introduce yourself to new clients with pitch</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: yellow;"></i></div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-option"><a href="" class="menu-opt-link submenu-3"> Learn Design</a>
+                            <div class="link-hover-card hover-card-3">
+                                <ul class="left-sec-ul">
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s9.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Certified Product Design Course</div>
+                                            <a class="link" href="#">Learn product design jsut in 16 weeks...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: blueviolet;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s10.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Introduction to UI DEsign</div>
+                                            <a class="link" href="#">Learn UI Design Basic and Figm Fundamentals...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left;color: rgb(33, 180, 106);"></i></div>
+                                    </li>
+                                    <hr>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s11.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Browse our courses & workshop</div>
+                                            <a class="link" href="#">Level up your skill with our interactive course and
+                                                workshop...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: yellow;"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-option"><a href="" class="menu-opt-link submenu-4"> Go Pro</a>
+                            <div class="link-hover-card hover-card-4">
+                                <ul class="left-sec-ul">
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s12.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">For Designers</div>
+                                            <a class="link" href="#">Portfolio creation make easy</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: blueviolet;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s13.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">For Freelancer</div>
+                                            <a class="link" href="#">Fresh lead in your inbox every day</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: palevioletred;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s14.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">For Teams</div>
+                                            <a class="link" href="#">Build your team's pipeline and profile</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: rgb(33, 180, 106);"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-option"><a href="" class="menu-opt-link submenu-5"> Design files</a>
+                            <div class="link-hover-card hover-card-5">
+                                <ul class="left-sec-ul">
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s15.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Discover</div>
+                                            <a class="link" href="#">A marketplace of digital assets...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: blueviolet;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s16.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Graphics</div>
+                                            <a class="link" href="#">Icons,ILlustrations,Patters,Texture...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: palevioletred;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s17.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Fonts</div>
+                                            <a class="link" href="#">DIsplay,Script,Sans Serif,Serif...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left;color: rgb(33, 180, 106);"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s18.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Templates</div>
+                                            <a class="link" href="#">Mocks-Ups,Socil Media,Presentations...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: yellow;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s19.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">3D</div>
+                                            <a class="link" href="#">Characters,Objects,Textures...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: blueviolet;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s20.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Themes</div>
+                                            <a class="link" href="#">WordPress,Shopify,Bootstrap,HTML5...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: palevioletred;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s21.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Add Ons</div>
+                                            <a class="link" href="#">Procreate,Affinity,Photoshop,InDesign...</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left;color: rgb(33, 180, 106);"></i></div>
+                                    </li>
+                                    <hr>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s22.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Open a Shop</div>
+                                            <a class="link" href="#">Earn money doing what you love</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left;color: rgb(33, 180, 106);"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-option"><a href="" class="menu-opt-link submenu-6"> Hire Designers</a>
+                            <div class="link-hover-card hover-card-6">
+                                <ul class="left-sec-ul">
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s23.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Designer Search</div>
+                                            <a class="link" href="#">Find,Contact,and Hire designers</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: blueviolet;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s24.png" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">List My Job Opening</div>
+                                            <a class="link" href="#">The #1 job board for Creatives</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: palevioletred;"></i></div>
+                                    </li>
+                                    <li class="left-sec-li">
+                                        <div class="icon">
+                                            <img src="../images/submenulogo/s25.PNG" alt="" class="sub-icon">
+                                        </div>
+                                        <div class="submenu">
+                                            <div class="link-heading">Post a Freelancer Project</div>
+                                            <a class="link" href="#">Board for freelancer & contract work</a>
+                                        </div>
+                                        <div class="arrow"><i class="fa-solid fa-arrow-right-long"
+                                                style="float:left; color: rgb(33, 180, 106);"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <img class="logoimg" src="/1.png" style="width: 100px; height:35px;" alt="">
+            <div class="navcontainer">
+                <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                <h1 class="sign-in">Sign In</h1>
+                <button class="btn-1">Share my work</button>
+
+
+            </div>
+        </nav>
+        <div id="menu1">
+            <input type="text" class="searchbar" placeholder="Search">
+            <a href="" class="menu-opt-links dropdown "> Inspiration <i class="fa-solid fa-caret-down"
+                    style="float: right;"></i></a>
+            <a href="" class="menu-opt-links dropdown"> Find Work <i class="fa-solid fa-caret-down"
+                    style="float: right;"></i></a>
+            <a href="" class="menu-opt-links dropdown"> Learn Design <i class="fa-solid fa-caret-down"
+                    style="float: right;"></i></a>
+            <a href="" class="menu-opt-links dropdown"> Go Pro <i class="fa-solid fa-caret-down"
+                    style="float: right;"></i></a>
+            <a href="" class="menu-opt-links dropdown"> Design files <i class="fa-solid fa-caret-down"
+                    style="float: right;"></i></a>
+            <a href="" class="menu-opt-links dropdown"> Hire Designers <i class="fa-solid fa-caret-down"
+                    style="float: right;"></i></a>
+        </div>
+    </header>
+    <div class="hero-section">
+        <div class="slide-option">
+            <div class="buttons" style="background-color:none;">
+                <button class="container-btn" data-btn-num="1">
+                    Discover
+                </button>
+                <button class="container-btn" data-btn-num="2">Animation</button>
+                <button class="container-btn" data-btn-num="3">
+                    Branding
+                </button>
+                <button class="container-btn" data-btn-num="4">
+                    Illustration
+                </button>
+                <button class="container-btn" data-btn-num="5">Mobile</button>
+                <button class="container-btn" data-btn-num="6">
+                    Print
+                </button>
+                <button class="container-btn" data-btn-num="7">Typography</button>
+                <button class="container-btn" data-btn-num="8">Web-Design</button>
+                <button class="container-btn" data-btn-num="9">Product-Design</button>
+            </div>
+            <div class="slider-1 sliders active-btn">
+                <video autoplay muted infinite
+                    src="https://cdn.dribbble.com/uploads/39421/original/963b4f8739cbdf86ca3f3a23245efd18.mp4?1657824985"></video>
+                <div class="slider content">
+                    <h2>Explore the world’s leading design portfolios</h2>
+                    <p>Millions of designers and agencies ar
+                        ound the world showcase their portfolio work
+                        on Dribbble - the home to the world’s best design and c
+                        reative professionals.
+                    </p>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                        <input type="text" class="search-field" placeholder="Search...">
+                    </div>
+                    <div class="trending-keywords">
+
+                        <ul class="t-key-ul">
+                            <li>Trending Searches:-</li>
+                            <li class="t-keyword">landing page</li>
+                            <li class="t-keyword">ios</li>
+                            <li class="t-keyword">food</li>
+                            <li class="t-keyword">landingpage</li>
+                            <li class="t-keyword">uxdesign</li>
+                            <li class="t-keyword">appdesign</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-black"></div>
+                <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga iste praesentium pariatur. Suscipit ab deleniti, praesentium exercitationem corrupti sit?</p> -->
+            </div>
+            <div class="slider-2 sliders"><video autoplay muted infinite
+                src="https://cdn.dribbble.com/uploads/39528/original/6e8074c4feefde86da9f547a0c0e2172.mp4?1657913143"></video>
+                <div class="slider content">
+                    <h2>Trending animations, motion graphics, and 3D designs</h2>
+                    <p>Discover the finest animation, motion
+                        graphics, 3D, and entertaining animated GIFs
+                        from popular design portfolios
+
+                    </p>
+
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                        <input type="text" class="search-field" placeholder="Search....">
+                    </div>
+                    <div class="trending-keywords">
+
+                        <ul class="t-key-ul">
+                            <li>Trending Searches:-</li>
+                            <li class="t-keyword">after effects</li>
+                            <li class="t-keyword">GIFs</li>
+                            <li class="t-keyword">motion</li>
+                            <li class="t-keyword">motion graphics</li>
+                            <li class="t-keyword">2d</li>
+                            <li class="t-keyword">loop</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-black"></div>
+            </div>
+            <div class="slider-3 sliders">
+                <video autoplay muted infinite
+                    src="https://cdn.dribbble.com/uploads/39489/original/485abd9d034966142a88773f079024ee.mp4?1657907917"></video>
+                    <div class="slider content">
+                        <h2>Trending brand designs, identities, and logos</h2>
+                        <p>Explore the unique brand identities and logos for business,
+                            marketing, and advertising from popular design portfolios
+                        </p>
+                        <div class="search-bar">
+                            <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                            <input type="text" class="search-field" placeholder="Search....">
+                        </div>
+                        <div class="trending-keywords">
+    
+                            <ul class="t-key-ul">
+                                <li>Trending Searches:-</li>
+                                <li class="t-keyword">logo</li>
+                                <li class="t-keyword">typography</li>
+                                <li class="t-keyword">brand identity</li>
+                                <li class="t-keyword">identity</li>
+                                <li class="t-keyword">vector</li>
+                                <li class="t-keyword">minimal</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tp-black"></div>
+            </div>
+            <div class="slider-4 sliders">
+                <video autoplay muted infinite
+                src="https://cdn.dribbble.com/uploads/39498/original/f1763414d2ae2fc518ed368cff6e5a4e.mp4?1657909932"></video>
+                <div class="slider content">
+                    <h2>Trending illustrations, line art, and sketches
+                    </h2>
+                    <p>Find inspiring illusrations ranging from characters,
+                        line art, murals, or sketches
+                        from popular design portfolios
+                    </p>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                        <input type="text" class="search-field" placeholder="Search....">
+                    </div>
+                    <div class="trending-keywords">
+
+                        <ul class="t-key-ul">
+                            <li>Trending Searches:-</li>
+                            <li class="t-keyword">vector</li>
+                            <li class="t-keyword">flat</li>
+                            <li class="t-keyword">branding</li>
+                            <li class="t-keyword">art</li>
+                            <li class="t-keyword">icon</li>
+                            <li class="t-keyword">typography</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-black"></div>
+            </div>
+            <div class="slider-5 sliders">
+                <video autoplay muted infinite
+                src="https://cdn.dribbble.com/uploads/39502/original/12177ecf24f30a4832031841fa01dca3.mp4?1657910001"></video>
+                <div class="slider content">
+                    <h2>Trending mobile designs for iOS, Android, and tablet
+                    </h2>
+                    <p>Discover trending mobile
+                        designs for apps on iOS, Android,
+                        tablets from popular design portfolios
+                    </p>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                        <input type="text" class="search-field" placeholder="Search....">
+                    </div>
+                    <div class="trending-keywords">
+
+                        <ul class="t-key-ul">
+                            <li>Trending Searches:-</li>
+                            <li class="t-keyword">ios</li>
+                            <li class="t-keyword">app</li>
+                            <li class="t-keyword">iphone</li>
+                            <li class="t-keyword">Android</li>
+                            <li class="t-keyword">ux</li>
+                            <li class="t-keyword">interface</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-black"></div>
+            </div>
+            <div class="slider-6 sliders">
+                <video autoplay muted infinite
+                src="https://cdn.dribbble.com/uploads/39526/original/c222f2f55b363d2001239b3289b54c1e.mp4?1657913110"></video>
+                <div class="slider content">
+                    <h2>Trending print design for books, magazines, and posters
+                    </h2>
+                    <p>Explore cutting edge print design for
+                        books, magazines, posters from popular design portfolios
+                    </p>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                        <input type="text" class="search-field" placeholder="Search....">
+                    </div>
+                    <div class="trending-keywords">
+
+                        <ul class="t-key-ul">
+                            <li>Trending Searches:-</li>
+                            <li class="t-keyword">posters/li>
+                            <li class="t-keyword">business card</li>
+                            <li class="t-keyword">brochure</li>
+                            <li class="t-keyword">stationary</li>
+                            <li class="t-keyword">magazine</li>
+                            <li class="t-keyword">flyer</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-black"></div>
+            </div>
+            <div class="slider-7 sliders">
+                <video autoplay muted infinite
+                src="https://cdn.dribbble.com/uploads/39526/original/c222f2f55b363d2001239b3289b54c1e.mp4?1657913110"></video>
+                <div class="slider content">
+                    <h2>Trending typography, lettering, and calligraphy
+                    </h2>
+                    <p>
+                        Explore the technique of type design, lettering,
+                        and calligraphy from popular design portfolios
+                    </p>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                        <input type="text" class="search-field" placeholder="Search....">
+                    </div>
+                    <div class="trending-keywords">
+
+                        <ul class="t-key-ul">
+                            <li>Trending Searches:-</li>
+                            <li class="t-keyword">type</li>
+                            <li class="t-keyword">lettering</li>
+                            <li class="t-keyword">branding</li>
+                            <li class="t-keyword">minimal</li>
+                            <li class="t-keyword">logo</li>
+                            <li class="t-keyword">vector</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-black"></div>
+            </div>
+            <div class="slider-8 sliders">
+                <video autoplay muted infinite
+                src="https://cdn.dribbble.com/uploads/39532/original/f4ab5a8995ba2b860e5a50d611150489.mp4?1657913874"></video>
+                <div class="slider content">
+                    <h2>Trending web & landing page designs
+                    </h2>
+                    <p>
+                        Explore trending Web Design, Responsive Design, User
+                        Experience and User Interfaces from popular design portfolios
+                    </p>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                        <input type="text" class="search-field" placeholder="Search....">
+                    </div>
+                    <div class="trending-keywords">
+
+                        <ul class="t-key-ul">
+                            <li>Trending Searches:-</li>
+                            <li class="t-keyword">web-development</li>
+                            <li class="t-keyword">landing-page</li>
+                            <li class="t-keyword">user-interface</li>
+                            <li class="t-keyword">web-site</li>
+                            <li class="t-keyword">site</li>
+                            <li class="t-keyword">e-commerce</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-black"></div>
+            </div>
+            <div class="slider-9 sliders">
+                <video autoplay muted infinite
+                src="https://cdn.dribbble.com/uploads/39489/original/485abd9d034966142a88773f079024ee.mp4?1657907917"></video>
+                <div class="slider content">
+                    <h2>Trending product design for apps, e-commerce, and games
+                    </h2>
+                    <p>Explore innovative Product Design from including apps, e-commerce or games to inspire your next
+                        project from popular design portfolios
+                    </p>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass" style="color:grey ;"></i>
+                        <input type="text" class="search-field" placeholder="Search....">
+                    </div>
+                    <div class="trending-keywords">
+
+                        <ul class="t-key-ul">
+                            <li>Trending Searches:-</li>
+                            <li class="t-keyword">branding</li>
+                            <li class="t-keyword">vector</li>
+                            <li class="t-keyword">illusrations</li>
+                            <li class="t-keyword">typography</li>
+                            <li class="t-keyword">logos</li>
+                            <li class="t-keyword">minimal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tp-black"></div>
+            </div>
+        </div> 
+    </div>
+    <footer>
+        <div class="main-footer-content">
+
+            <div class="footerlinks">
+                <div class="main-line">
+                    <img src="/dribble.png" style="width: 104px; margin-bottom: 20px;" alt="">
+                    <p class="tagline">
+                        Dribbble is the world’s leading community for creatives to share, grow, and get hired.
+                    </p>
+                    <div class="socialicon">
+                        <i class="fa-brands fa-facebook" style="font-size:2em; padding: 3px 6px;"></i>
+                        <i class="fa-brands fa-github" style="font-size:2em; padding: 3px 6px;"></i>
+                        <i class="fa-brands fa-twitter" style="font-size:2em; padding: 3px 6px;"></i>
+                        <i class="fa-brands fa-instagram" style="font-size:2em; padding: 3px 6px;"></i>
+                    </div>
+                </div>
+                <div class="links-container">
+                    <div class="links-column">
+                        <div class="link-heading">For designers</div>
+                        <a class="link" href="#">Go Pro!</a>
+                        <a class="link" href="#">Explore design work</a>
+                        <a class="link" href="#">Design blog</a>
+                        <a class="link" href="#">Overtime podcast</a>
+                        <a class="link" href="#">Dribbble meetups</a>
+                        <a class="link" href="#">Playoffs</a>
+                        <a class="link" href="#">Code of conduct</a>
+                    </div>
+                    <div class="links-column">
+                        <div class="link-heading">Hire designers</div>
+                        <a class="link" href="#">Post a job opening</a>
+                        <a class="link" href="#">Post a freelance project</a>
+                        <a class="link" href="">Search for designers</a>
+                        <div class="link-heading">Brands</div>
+                        <a class="link" href="">Advertise with us</a>
+                    </div>
+                    <div class="links-column">
+                        <div class="link-heading">Company</div>
+                        <a class="link" href="#">About</a>
+                        <a class="link" href="#">Careers</a>
+                        <a class="link" href="#">Support</a>
+                        <a class="link" href="/#">Media kit</a>
+                        <a class="link" href="#">Testimonials</a>
+                        <a class="link" href="#">API</a>
+                        <a class="link" href="#">Terms of service</a>
+                        <a class="link" href="#">Privacy policy</a>
+                        <a class="link" href="#">Cookie policy</a>
+                    </div>
+                    <div class="links-column">
+                        <div class="link-heading">Directories</div>
+                        <a class="link" href="">Design jobs</a>
+                        <a class="link" href="">Designers for hire</a>
+                        <a class="link" href="">Freelance designers for hire</a>
+                        <a class="link" href="">Tags</a>
+                        <a class="link" href="">Places</a>
+                        <div class="link-heading">Design assets</div>
+                        <a class="link" href="#">Creative Market</a>
+                        <a class="link" href="#">Fontspring</a>
+                        <a class="link" href="#">Font Squirrel</a>
+                    </div>
+                    <div class="links-column">
+                        <div class="link-heading">Design Resources</div>
+                        <a class="link" href="#">Freelancing</a>
+                        <a class="link" href="#">Design Hiring</a>
+                        <a class="link" href="#">Design Portfolio</a>
+                        <a class="link" href="#">Design Education</a>
+                        <a class="link" href="#">Creative Process</a>
+                        <a class="link" href="">Design Industry Trends</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-base">
+            <p class="f-base-line">© 2023 Dribbble. All rights reserved.</p>
+                <div >
+                    <p class="">18,919,623 shots dribbbled
+
+                    <img style="width: 24px;height: 22px;"
+                    src="https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cd15797067cf80ca53.svg"
+                    alt="">
+                </div>
+        </div>
+    </footer>
+    <script>
+        // starting code of hamburger function***********************************
+        function hide() {
+            document.getElementById("hamburger").style.display = "block";
+            document.getElementById("hide").style.display = "none";
+            document.getElementById("menu1").style.display = "none";
+        }
+
+        function show() {
+            document.getElementById("hide").style.display = "block";
+            document.getElementById("hamburger").style.display = "none";
+            document.getElementById("menu1").style.display = "flex";
+        }
+        window.addEventListener("resize", () => {
+            if (document.body.clientWidth > 980) {
+                document.getElementById("menu1").style.display = "none";
+                document.getElementById("hamburger").style.display = "none";
+                document.getElementById("hide").style.display = "none";
+            }
+        });
+        window.addEventListener("resize", () => {
+            if (document.body.clientWidth < 720) {
+                // document.getElementById("menu").style.display = "none";
+                document.getElementById("hamburger").style.display = "block";
+                document.getElementById("hide").style.display = "none";
+            }
+        });
+        // ending of the code of hamburger function***********************************
+        
+
+
+        // Starting code of hero-section slider-function***********************************
+
+
+
+        const buttons = document.querySelector('.buttons');
+        const btn = document.querySelectorAll('.container-btn');
+        const slide = document.querySelectorAll('.sliders');
+        const slide_main=document.querySelector('.slider-1');
+
+        buttons.addEventListener('click', (e) => {
+            
+            const btn_clicked = e.target;
+            // console.log(btn_clicked);
+
+            btn.forEach((curElem) => {
+                curElem.classList.remove('active-btn');
+            })
+            btn_clicked.classList.add('active-btn');
+            const btn_num = btn_clicked.dataset.btnNum;
+            // console.log(btn_num);
+            const slect_div = document.querySelectorAll(`.slider-${btn_num}`);
+            
+            slide.forEach((curElem) => curElem.classList.add('slide-not-act'));
+            slect_div.forEach((curElem) => curElem.classList.remove('slide-not-act'))
+            buttons.style.background="none";
+            buttons.style.border="none";
+            
+            
+
+            // const de_main=document.querySelector('.default-sli');
+            // de_main.style.display="none";
+
+        })
+        // ending of code of hero-section slider-function***********************************
+        
+    </script>
+</body>
+
+</html>
